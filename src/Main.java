@@ -91,6 +91,7 @@ public class Main {
         printObjWC.computeList(wildCardIntegerSourceList,wildCardIntegerDestinationList);
 
         //--try with generic--//
+
        // printObjWC.computeList(wildCardIntegerSourceList,wildCardIntegerSourceList); but if we define <T> then not able to get
     }
 }

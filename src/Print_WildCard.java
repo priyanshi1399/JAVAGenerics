@@ -15,9 +15,18 @@ public class Print_WildCard {
 
      //Lowerbound here use super keyword and it will be accesssing its parent class
     //means vehicle and above it
-    public void setPrintValues(List<? super Vehicle> vehicleList){
+   public void setPrintValues(List<? super Vehicle> vehicleList){
 
 
+}
+
+
+    //Unbound Type
+//your method can work on method available ab object classes. like size
+    public void computeList(List<?> source){
+        //you dont know which object it is
+
+        Object ob=source.get(0); //it could have integer,string....
     }
 }
 
