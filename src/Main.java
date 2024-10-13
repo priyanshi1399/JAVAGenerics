@@ -79,5 +79,18 @@ public class Main {
         vehicleObj=busObj; //ok parent can hold object of child
         */
 
+
+
+        /*
+        ComparisonWildCards and Generic
+         */
+        List<Integer> wildCardIntegerSourceList=new ArrayList<>();
+        List<Float> wildCardIntegerDestinationList=new ArrayList<>();
+
+        PrintComparisonWCandGeneric printObjWC=new PrintComparisonWCandGeneric();
+        printObjWC.computeList(wildCardIntegerSourceList,wildCardIntegerDestinationList);
+
+        //--try with generic--//
+       // printObjWC.computeList(wildCardIntegerSourceList,wildCardIntegerSourceList); but if we define <T> then not able to get
     }
 }
