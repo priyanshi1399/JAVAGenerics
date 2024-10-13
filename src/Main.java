@@ -34,6 +34,8 @@ public class Main {
 
 */ //
 
+
+
     /* Multi Bound Generics
         MultiBound_parentClass obj=new MultiBound_parentClass();
         MultiBound_PrintChild<MultiBound_parentClass> printChildObj= new MultiBound_PrintChild<>();
