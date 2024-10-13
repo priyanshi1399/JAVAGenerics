@@ -41,6 +41,7 @@ public class Main {
         MultiBound_PrintChild<MultiBound_parentClass> printChildObj= new MultiBound_PrintChild<>();
         */
 
+
         /* Understanding Concept of WildCard Generics*/
         List<Vehicle> vehicleList= new ArrayList<>();
         vehicleList.add(new Bus());
@@ -65,7 +66,7 @@ public class Main {
         //now who is the parent of vehicle--->object that is acceptable
 
         List<Object> objList=new ArrayList<>() ;//that is acceptable
-
+        printObj.setPrintValues(objList); //this is acceptable
         */
 
         /*
@@ -75,7 +76,7 @@ public class Main {
         Vehicle vehicleObj=new Vehicle();
         Bus busObj=new Bus();
 
-        vehicleObj=busObj; //ok
+        vehicleObj=busObj; //ok parent can hold object of child
         */
 
     }
